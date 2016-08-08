@@ -191,12 +191,14 @@
   BoldItalicFont=*-BoldIt
 ]{SourceSansPro}
 
+% temporary fix for adjusing font. I need come up with a correct fix in
+% nearly future
 \newfontfamily\bodyfontlight[
   Path=\@fontdir,
-  UprightFont=*-Light,
-  ItalicFont=*-LightIt,
-  BoldFont=*-Semibold,
-  BoldItalicFont=*-SemiboldIt
+  UprightFont=*-Regular,
+  ItalicFont=*-Regular,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-Bold
 ]{SourceSansPro}
 
 % Set main font
@@ -610,7 +612,7 @@
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+  \begin{itemize}[leftmargin=4ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
