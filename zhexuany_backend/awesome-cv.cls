@@ -161,7 +161,7 @@
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
-  ItalicFont=*-Italic,
+  ItalicFont=*-Regular,
   BoldFont=*-Bold,
   BoldItalicFont=*-BoldItalic,
 ]{Roboto}
